@@ -1,0 +1,64 @@
+7/18/16-- [source: https://www.youtube.com/watch?v=DEumkKjE2YQ]
+Windows/Views [Hierarchy, Inspector, Project, Console, Scene, Game]
+- Unitiy is made of Views that serve different purposes.
+
+Hierarchy View:
+- Contains game objects of the current scene.
+
+Scene View:
+- Graphical ability to manipulate game objects/assets.
+- Shows us whatever is in the current scene.
+- Moving around in Scene View:
+	- Fly throughmode (mouse right(hold) + w/s/a/q + shift[to move faster])
+	- Move up/down/left/right (mouse right hold down) 
+	- Focus on object (F twice)
+	- Zoom In/Out (mouse wheel)
+- Shanding Mode:
+	- Render Paths : great for seeing if objects overlap.
+- Gizmo (e.g. a little camera icon)
+	- Used to control Gizmo in the scene.
+
+Icon Tools
+- (keyboard shortcut Q) Hand tool : control by holding mouse right or mouse left
+- (keyboard shortcut W) Translation tool 
+- (keyboard shortcut E) Rotation : rotate the object, xaxis - Red, yaxis - Green, zaxis - blue
+- (keyboard shortcut R) Scale : allow scaling of the object.
+
+Layers:
+
+Layout:
+- Change the View layout.
+- NOTE: You can move views around and save the layouts.
+
+Play/Pause/Step:
+- Play - Play the scene on game view.
+- Pause - Pause game, able to move objects around for testing, however the change won't be SAVED!
+- Step - Step through iteration one at a time
+Game View:
+- What the player of the game see or what ever the camer sees.
+	
+Inspector View:
+- Describes all the pertinant information about the selected object.
+- Tag: used for simple identification of objects.
+- Layer: used for grouping of functionalities.
+- Transform: describe Scale, Rotation, Position of object.
+- Components can bee added, disabled, or deleted.
+
+Scene:
+- "Is like a level in a game."
+- "We kind of build game level by level."
+
+Project View:
+- Show all assests related to the project.
+
+Game Object VS. Assets:
+- Assets - things that have actual files to them (e.g. music)
+	 - can be used in any number of scene.
+- Object - only for one specific scene.
+
+*File Management Tips:
+- It is always better to delete files (assets) from Unity Project View, don't do it directly on File Explorer.
+  Unity tracks the files so be careful.
+
+Console View:
+- View for Error messages/program mesages.
