@@ -1,4 +1,5 @@
 7/18/16-- [source: https://www.youtube.com/watch?v=DEumkKjE2YQ]
+
 Windows/Views [Hierarchy, Inspector, Project, Console, Scene, Game]
 - Unitiy is made of Views that serve different purposes.
 
@@ -25,6 +26,7 @@ Icon Tools
 - (keyboard shortcut R) Scale : allow scaling of the object.
 
 Layers:
+- For be used to filter functionalities in the scene?
 
 Layout:
 - Change the View layout.
@@ -34,17 +36,18 @@ Play/Pause/Step:
 - Play - Play the scene on game view.
 - Pause - Pause game, able to move objects around for testing, however the change won't be SAVED!
 - Step - Step through iteration one at a time
+
 Game View:
-- What the player of the game see or what ever the camer sees.
+- What the player of the game see or what ever the camera sees.
 	
 Inspector View:
 - Describes all the pertinant information about the selected object.
 - Tag: used for simple identification of objects.
 - Layer: used for grouping of functionalities.
 - Transform: describe Scale, Rotation, Position of object.
-- Components can bee added, disabled, or deleted.
+- Components can be added, disabled, or deleted.
 
-Scene:
+Scene View:
 - "Is like a level in a game."
 - "We kind of build game level by level."
 

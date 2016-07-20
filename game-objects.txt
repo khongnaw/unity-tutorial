@@ -1,0 +1,50 @@
+7/19/16--- [source: https://www.youtube.com/watch?v=-0Tkfe6JkC4]
+Parenting/Nesting/Grouping:
+- "Helps us keep items together and make items behave in specific way"
+- Nested object coordinate will be relative to its parent position. (e.g. (0,0) is at the center of parent object)
+
+
+Coordinate System:
+-"Everything in video game is based off a Coordinate systems (Cartesian system)".
+-"It is how we develop and build games to be rendered on the screen. (e.g. Mario is based on 2D coordinate system)"
+- NOT ALL GAME Engine used to same coordinate system. 
+	* (for Unity y-up/down, x-left/right, z-in/out)
+	* Importing assets into other engine can be problametic.
+
+Global (World) vs. Local Coordinate System
+- Global - shared accross all game objects, all relative to the World's coordinate.
+- Local - Coordinate relative to the game object. (e.g. (0,0) is at the center of a square object)
+
+Game Object:
+- "The most fundamental element of the scene"
+- "Every scene is made of many game objects (e.g. tree, sun, player)"
+- "At its core, game objects are EMPTY containers that can be stacked a bunch of things/functionalities into."
+
+Plane Object:
+- "Very useful...for putting stuff on it...Makes great back stop"
+
+Component:
+- "Things we add to game object to give them abilities"
+
+Transform Vs. Transformation:
+ * Transform
+	- It's a unique position, rotation, and scale of game object.
+	- "Every game object has a transform"
+ * Transformation
+	- [Change in] position, rotation, or scale.
+	- "Perform a transformation on a transform"
+
+Three Types of Transformation:
+1. Translation- moving left/right/up/down
+2. Rotation   - rotate object about its axis ("rotate about an axis, imagine a pin going through the axis")
+3. Scale      - scale (e.g, if I want object to be two times bigger, multiple the current scale by 2)
+
+Tips: lighiting
+- When you add a light component to a scene, Unity automatically turns of universal lighting.
+  This causes objects to appear dark.
+- Click on a light icon to turn universal light on.
+
+Note:
+- Red   -> X-axis
+- Blue  -> Z-axis
+- Green -> Y-axis
