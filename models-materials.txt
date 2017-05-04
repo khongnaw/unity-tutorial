@@ -1,0 +1,39 @@
+7/20/16-- [source: https://www.youtube.com/watch?v=w4nDkCwLMSE]
+
+Model Vs. Meshes:
+-Mesh  : A collection of 3D points, when combined together [defined some physical presence/ physicality of some object].
+-Model : "Things that contain the Mesh and all the other stuff"
+
+Mesh:
+- Every Mesh is made up of a [series of triangles]
+- Triangles are used because triangle is the most complex polygon that is simple enough to build complex things.
+- Why Triangle?
+	-Every series of three points will define some shape.
+	-You can always connect three dots without the lines crossing each other.
+	-3 points will always produce a flat shape.
+
+-Texture itself can't go on meshes
+  Only Materials can go on meshes
+  -> However, Unity will let us cheat and let you drag texture into a mesh. Unity will create a new material for you.
+  -> This is no the formal way to do it!
+  -> You should make the material yourself.
+
+Materials
+- Materials are made of 
+	-> Texture - Note: Aniso level - what the quality of the texture is when we look at extream angle.
+	-> Shader  - Responsible for telling material which property it can take (e.g. shininess, main color, decal)
+		   - For example: diffuse -> evenly lit, nicely flat shader
+		   - Note: Offset - shifting the tiling left/right
+			   Tiling - how many times the texture repeats
+
+
+Mesh Renderer & Mesh Filter:
+- Tells us how the game object is drawn
+
+Default-Diffuse (Material)
+- "Skin for the Mesh that gives a more robust model experience"
+
+Performance Tip:
+- Looking at Stats gives us triangles and vertices counts on a particular scene
+- The more vertices or polygons you have per scene, the more computing intensive it is.
+- Quad vs. Plane
